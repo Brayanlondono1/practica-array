@@ -149,3 +149,16 @@ let arregloo = ["Hola", "mundo", "cómo", "están?"];
 let miString = arregloo.join(" ");
                                                    //arreglo para convertir a string
 console.log(miString);
+
+
+
+
+
+
+let arreglo18 = [1, 2, 3, 4, 5];
+
+
+let subseccionArray = arreglo18.slice(-3);            
+
+console.log("Subsección del array:", subseccionArray); 
+console.log("Array original:", arreglo18);
