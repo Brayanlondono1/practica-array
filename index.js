@@ -50,3 +50,22 @@ let conjunto = new Set(arregloConRepetidos);
 let arregloSinRepetidos = [...conjunto];
 
 console.log(arregloSinRepetidos);
+
+
+
+
+
+
+
+
+function generarValores(numElementos) {
+    let array = [];
+    for (let i = 0; i < numElementos; i++) {
+        array.push(Math.random() * 100); 
+    }
+    return array;                                 // array dinamico  de numeros aleatorios entre 0 y 100
+}
+
+const arrayGenerado = generarValores(5);
+
+console.log(arrayGenerado);
