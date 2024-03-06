@@ -81,3 +81,16 @@ let longitud = arreglo.length;                  // array de longitud
 
 console.log("La longitud del array es:", longitud);
 
+
+
+
+
+
+
+let miArreglo = [1, 2, 3, 4, 5];
+
+miArreglo.push(6);
+miArreglo.push(7);                          // array de agregar elementos  al final con el metodo push
+
+console.log(miArreglo); 
+
