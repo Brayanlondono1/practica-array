@@ -127,3 +127,15 @@ let elementoEliminado = arrayy.shift();
 
 console.log("Elemento eliminado:", elementoEliminado); 
 console.log("Array después de eliminar el primer elemento:", arrayy);
+
+
+
+
+
+let arreglonormal = [1, 2, 3, 4, 5];
+
+
+let porcionArray = arreglonormal.slice(1, 4);      // array para agarrar porcion 
+
+console.log("Porción del array:", porcionArray); 
+console.log("Array original:", arreglonormal);
