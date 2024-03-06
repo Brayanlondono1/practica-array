@@ -117,3 +117,13 @@ arregloañadir.unshift(0);
 
 console.log(arregloañadir);
 
+
+
+
+
+let arrayy = [1, 2, 3, 4, 5];
+                                              // array para elimiar primer elemento
+let elementoEliminado = arrayy.shift();
+
+console.log("Elemento eliminado:", elementoEliminado); 
+console.log("Array después de eliminar el primer elemento:", arrayy);
