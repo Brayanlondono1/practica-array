@@ -1,0 +1,1 @@
+let arreglovacio = []; // Array vacío
