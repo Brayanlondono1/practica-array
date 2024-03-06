@@ -169,5 +169,19 @@ console.log("Array original:", arreglo18);
 
 let Array19 = [1, 2, 3, 4, 5];
 let nuevaArray = Array19.slice(0, 2).concat(Array19.slice(3)); // elimina una orcion de arreglo
-
 console.log("Nuevo array:", nuevaArray); 
+
+
+
+
+
+
+
+
+
+let array20 = [3, 4, 5];
+
+let nuevosElementos = [1, 2];
+Array20.unshift(...nuevosElementos);     // array para agregar  elementos al principio
+
+console.log(Array20);
