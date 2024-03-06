@@ -25,3 +25,15 @@ let arreglotexto = "soñame vos que si dormis";
 let arregloDePalabras = cadena.split(" ");       // array cadenas de texto
 
 console.log(arregloDePalabras); 
+
+
+
+
+
+let arreglo1 = [1, 2, 3];
+let arreglo2 = [4, 5, 6];
+
+
+let arregloCombinado = [...arreglo1, ...arreglo2];    // array combinado 
+
+console.log(arregloCombinado);
