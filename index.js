@@ -105,3 +105,15 @@ let elementoEliminado = arrray.pop();                    // array de eliminar ul
 
 console.log("Elemento eliminado:", elementoEliminado);
 console.log("Array después de eliminar el último elemento:", arrray);
+
+
+
+
+
+let  arregloañadir = [2, 3, 4, 5];
+
+arregloañadir.unshift(1);                    // arry para añadir al principio
+arregloañadir.unshift(0);
+
+console.log(arregloañadir);
+
