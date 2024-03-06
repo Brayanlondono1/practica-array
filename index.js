@@ -66,6 +66,18 @@ function generarValores(numElementos) {
     return array;                                 // array dinamico  de numeros aleatorios entre 0 y 100
 }
 
-const arrayGenerado = generarValores(5);
+let arrayGenerado = generarValores(5);
 
 console.log(arrayGenerado);
+
+
+
+
+
+
+let arreglo  = [1, 2, 3, 4, 5];
+
+let longitud = arreglo.length;                  // array de longitud 
+
+console.log("La longitud del array es:", longitud);
+
