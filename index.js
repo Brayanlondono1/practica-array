@@ -139,3 +139,13 @@ let porcionArray = arreglonormal.slice(1, 4);      // array para agarrar porcion
 
 console.log("Porción del array:", porcionArray); 
 console.log("Array original:", arreglonormal);
+
+
+
+
+
+let arregloo = ["Hola", "mundo", "cómo", "están?"];
+
+let miString = arregloo.join(" ");
+                                                   //arreglo para convertir a string
+console.log(miString);
