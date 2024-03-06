@@ -37,3 +37,16 @@ let arreglo2 = [4, 5, 6];
 let arregloCombinado = [...arreglo1, ...arreglo2];    // array combinado 
 
 console.log(arregloCombinado);
+
+
+
+
+
+
+let arregloConRepetidos = [1, 2, 2, 3, 4, 4, 5];
+
+let conjunto = new Set(arregloConRepetidos);
+
+let arregloSinRepetidos = [...conjunto];
+
+console.log(arregloSinRepetidos);
