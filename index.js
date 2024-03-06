@@ -15,3 +15,13 @@ let arreglosecuencia = Array.from({ length: 200 }, (_, index) => index + 1);//ar
 
 
 let arrayRepeticion = new Array(50).fill(0); // array de repeticion 
+
+
+
+
+
+let arreglotexto = "soñame vos que si dormis";
+
+let arregloDePalabras = cadena.split(" ");       // array cadenas de texto
+
+console.log(arregloDePalabras); 
